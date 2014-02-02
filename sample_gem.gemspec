@@ -6,11 +6,11 @@ require 'sample_gem/version'
 Gem::Specification.new do |spec|
   spec.name          = "sample_gem"
   spec.version       = SampleGem::VERSION
-  spec.authors       = ["Yuki Hattori"]
-  spec.email         = ["yuki.hattori@actcat.co.jp"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.authors       = ["nin2"]
+  spec.email         = ["mail@yukihattori.com"]
+  spec.description   = %q{msample gem}
+  spec.summary       = %q{This is sample gem}
+  spec.homepage      = "https://github.com/nin2/sample_gem"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
